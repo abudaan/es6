@@ -1,0 +1,18 @@
+{
+  "name": "es6",
+  "private": false,
+  "devDependencies": {
+    "babelify": ">=4.0.0",
+    "browserify": ">=8.1.1",
+    "exorcist": "^0.1.6",
+    "local-web-server": "^0.5.16",
+    "watchify": ">=1.0.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "ws",
+    "watch": "watchify js/main.js -t babelify -o build/build.js --debug --verbose"
+  }
+}
